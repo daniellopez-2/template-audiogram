@@ -20,7 +20,7 @@ export const RemotionRoot: React.FC = () => {
           audioFileName: staticFile("audio.mp3"),
           coverImgFileName: staticFile("cover.jpg"),
           titleText:
-            "#001 – How to find Sports Betting Arbitrage.fm",
+            "#002 – How to find Arbitrage Opportunities on ArbBets.fm",
           titleColor: "rgba(186, 186, 186, 0.93)",
 
           // Subtitles settings
@@ -37,7 +37,7 @@ export const RemotionRoot: React.FC = () => {
           waveLinesToDisplay: 29,
           waveNumberOfSamples: "256", // This is string for Remotion controls and will be converted to a number
           mirrorWave: true,
-          durationInSeconds: 29.5,
+          durationInSeconds: 860,
         }}
         // Determine the length of the video based on the duration of the audio file
         calculateMetadata={({ props }) => {
